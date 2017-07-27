@@ -1,0 +1,40 @@
+{
+  "name": "event_attendee_test",
+  "version": "1.0.0",
+  "description": "A simple software that captures the data of attendees at Akkroo's event ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "bootstrap-css": "^4.0.0-alpha.5",
+    "eslint": "^4.3.0",
+    "eslint-plugin-react": "^7.1.0",
+    "jquery": "^3.2.1",
+    "json-loader": "^0.5.7",
+    "nodemon": "^1.11.0",
+    "webpack": "1.13.2",
+    "webpack-dev-server": "^2.6.0"
+  },
+  "dependencies": {
+    "aphrodite": "^1.2.3",
+    "bootstrap": "^3.3.7",
+    "loglevel": "^1.4.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.5",
+    "react-router": "^2.5.2",
+    "redux": "^3.7.2",
+    "redux-form": "^4.1.3",
+    "redux-thunk": "^2.2.0"
+  }
+}

@@ -1,0 +1,47 @@
+[
+	{
+		"type": "GuestList",
+		"guestList": [
+			{
+				"name": "John Jameson"
+			},
+			{
+				"name": "Sam Stuarts",
+				"email": "sam@stuarts.com"
+			},
+			{
+				"name": "Matt Michaels",
+				"email": "matt@michaels.com"
+			}
+		],
+		"nextStep": 1
+	},
+	{
+		"type": "DataCapture",
+		"questions": [
+			{
+				"type": "text",
+				"id": "name"
+			},
+			{
+				"type": "text",
+				"id": "email"
+			}
+		],
+		"nextStep": 2
+	},
+	{
+		"type": "Email",
+		"template": "registrationEmail",
+		"nextStep": 3
+	},
+	{
+		"type": "Save",
+		"nextStep": 4
+	},
+	{
+		"type": "Reset",
+		"delay": 2000,
+		"nextStep": null
+	}
+]
